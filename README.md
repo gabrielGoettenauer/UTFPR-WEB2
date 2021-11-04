@@ -5,7 +5,7 @@ https://www.figma.com/file/bJhy8Z5Jp0mphBiSeiVFS7/Untitled?node-id=0%3A1
 # CheckList
 .Caixas de Diálogo
 - [x] prompt
-- [ ] alert
+- [x] alert
 - [x] confirm
 
 . Temporizadores
