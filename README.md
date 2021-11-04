@@ -8,8 +8,8 @@ https://www.figma.com/file/bJhy8Z5Jp0mphBiSeiVFS7/Untitled?node-id=0%3A1
 - [ ] alert
 - [ ] confirm
 . Temporizadores
-- [ x] setInterval
-- [ x] setTimeout
+- [x] setInterval
+- [x] setTimeout
 . Funções
 - [ ] Função anônima com argumento
 - [ ] Função anônima sem argumento
