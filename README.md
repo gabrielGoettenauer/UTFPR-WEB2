@@ -7,9 +7,11 @@ https://www.figma.com/file/bJhy8Z5Jp0mphBiSeiVFS7/Untitled?node-id=0%3A1
 - [ ] prompt
 - [ ] alert
 - [ ] confirm
+
 . Temporizadores
 - [x] setInterval
 - [x] setTimeout
+
 . Funções
 - [ ] Função anônima com argumento
 - [ ] Função anônima sem argumento
@@ -19,6 +21,7 @@ https://www.figma.com/file/bJhy8Z5Jp0mphBiSeiVFS7/Untitled?node-id=0%3A1
 - [ ] Função aninhada/local - declarar uma função dentro de outra
 - [ ] Passagem de uma função como parâmetro
 - [ ] Função Flecha - Arrow Function
+
 .Eventos
 - [ ] Evento de carregamento do documento - onload
 - [ ] Evento de movimento do mouse
@@ -42,6 +45,7 @@ https://www.figma.com/file/bJhy8Z5Jp0mphBiSeiVFS7/Untitled?node-id=0%3A1
 - [ ] Usar laço de repetição (for..in ou for..of ou forEach)
 - [ ] Usar pelo menos 3 métodos para manipulação de string
 - [ ] String Template
+
 .Objetos
 - [ ] Criar objeto usando função construtora ou notação literal
 - [ ] Criar objetos a partir da definição de classes do ES6
