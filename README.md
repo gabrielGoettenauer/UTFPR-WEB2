@@ -34,7 +34,7 @@ https://www.figma.com/file/bJhy8Z5Jp0mphBiSeiVFS7/Untitled?node-id=0%3A1
 - [x] Via getElementByID()
 - [x] Via getElementsByName()
 - [x] Via getElementsByTagName()
-- [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
+- [x] Via seletores CSS usados na função querySelector() ou querySelectorAll()
 - [ ] Tratadores de Evento
 - [ ] Especificar o tratador de evento inline
 - [ ] Especificar o tratador de evento no modo tradicional - com prefixo on
