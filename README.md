@@ -17,9 +17,9 @@ https://www.figma.com/file/bJhy8Z5Jp0mphBiSeiVFS7/Untitled?node-id=0%3A1
 - [ ] Função anônima sem argumento
 - [ ] Função anônima com retorno
 - [ ] Função auto-executável
-- [ ] Função com nome
+- [x] Função com nome
 - [ ] Função aninhada/local - declarar uma função dentro de outra
-- [ ] Passagem de uma função como parâmetro
+- [x] Passagem de uma função como parâmetro
 - [ ] Função Flecha - Arrow Function
 
 .Eventos
