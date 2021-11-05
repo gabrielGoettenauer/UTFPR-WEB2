@@ -32,15 +32,16 @@ https://www.figma.com/file/bJhy8Z5Jp0mphBiSeiVFS7/Untitled?node-id=0%3A1
 - [ ] Acesso aos elementos DOM do HTML
 - [ ] Via referência DOM pelo id do elemento HTML
 - [x] Via getElementByID()
-- [ ] Via getElementsByName()
-- [ ] Via getElementsByTagName()
+- [x] Via getElementsByName()
+- [x] Via getElementsByTagName()
 - [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
 - [ ] Tratadores de Evento
 - [ ] Especificar o tratador de evento inline
 - [ ] Especificar o tratador de evento no modo tradicional - com prefixo on
 - [ ] Especificar o tratador de evento com a função addEventListener
 - [ ] Usar o operador this em funções tratadoras de eventos.
-- [ ] Objetos Nativos
+
+. Objetos Nativos
 - [ ] Usar pelo menos 3 métodos de manipulação de array
 - [ ] Usar laço de repetição (for..in ou for..of ou forEach)
 - [x] Usar pelo menos 3 métodos para manipulação de string
