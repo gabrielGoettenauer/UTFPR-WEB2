@@ -42,7 +42,7 @@ https://www.figma.com/file/bJhy8Z5Jp0mphBiSeiVFS7/Untitled?node-id=0%3A1
 - [ ] Usar o operador this em funções tratadoras de eventos.
 
 . Objetos Nativos
-- [ ] Usar pelo menos 3 métodos de manipulação de array
+- [x] Usar pelo menos 3 métodos de manipulação de array
 - [ ] Usar laço de repetição (for..in ou for..of ou forEach)
 - [x] Usar pelo menos 3 métodos para manipulação de string
 - [ ] String Template
