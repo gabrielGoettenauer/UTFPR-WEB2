@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dream Travel</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <nav class="white" role="navigation">
+        <div class="container nav-wrapper">
+            <div class="aviao"><a href="index.html" class="brand-logo"><img src="img/aviao.png" alt=""></a></div>
+            <ul class="hide-on-med-and-down right">
+                <li><a href="index-ajuda.html">Ajuda</a></li>
+                <li onclick="premium()"><a href="#">Premium</a></li>
+                <li><a href="#">Viajar</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="index-formulario.html">Inscreva-se</a></li>
+                <li onclick="entrar()"><a href="#">Entrar</a></li>
+            </ul>
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="index-ajuda.html">Ajuda</a></li>
+                <li onclick="premium()"><a href="#">Premium</a></li>
+                <li><a href="#">Viajar</a></li>
+                <li><a href="index-formulario.html">Inscreva-se</a></li>
+                <li onclick="entrar()"><a href="#">Entrar</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+        </div>
+    </nav>
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img--cards/city.jpg">
+                <div class="caption center-align">
+                    <h3>Escolha aqui o seu destino</h3>
+                    <h5 class="light grey-text text-lighten-3">O mundo é um livro, e aqueles que não viajam lêem apenas
+                        uma página. </h5>
+
+                </div>
+            </li>
+
+            <li>
+                <img src="img--cards/city2.jpg">
+                <div class="caption left-align">
+                    <h3>Diversos lugares para conhecer</h3>
+                    <h5 class="light grey-text text-lighten-3">Viajar não é despesa, é investimento.</h5>
+
+                </div>
+            </li>
+
+            <li>
+                <img src="img--cards/aurea.jpg">
+                <div class="caption right-align">
+                    <h3>Faça acontecer</h3>
+                    <h5 class="light grey-text text-lighten-3">Se você der um passo em direção à liberdade, ela dará
+                        dois passos em direção a você.</h5>
+
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+    <!------------------------------------------------------------>
+    <div class="container" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card class sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img--cards/affe2.jpg" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class=" card-title activator grey-text text-darken-4">
+                            <a><i class="material-icons"> star star star star star </i></a>
+                            <i class="material-icons right"> more_vert</i>
+                        </span>
+                    </div>
+                    <div class="card-action ">
+                        <a href="#"><i class="material-icons">visibility</i>10.6M Views</a>
+                        <a href="#"><i class="material-icons">place</i>Kabol, Afghanistan</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title" class=" grey-text text-darken-4">
+                            Agradecemos o interesse !
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Para que sua viagem seja marcada precisamos que você realize o seu cadastro conosco ou entre
+                            em sua conta!<br>
+                            Clique no botão abaixo para adicionar a viagem e em seguida clique no icone
+                            "viajar".
+                            <p class="flow-text"> Desejamos uma ótima viagem.</p>
+                            <label>
+                                <input type="checkbox" class="filled-in">
+                                <span>Clique para adicionar sua viagem</span>
+                            </label>
+                            <a href="index-formulario.html"><i class="material-icons">place</i>Viajar</a></p>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------------------------------>
+            <div class="col s12 m6">
+                <div class="card class sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img--cards/londres.jpg" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <a><i class="material-icons"> star star star star star </i></a>
+                            <i class="material-icons right"> more_vert</i>
+                        </span>
+                    </div>
+                    <div class="card-action ">
+                        <a href="#"><i class="material-icons">visibility</i>20.8M views</a>
+                        <a href="#"><i class="material-icons">place</i>Londres,Inglaterra</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title" class=" grey-text text-darken-4">
+                            Agradecemos o interesse !
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Para que sua viagem seja marcada precisamos que você realize o seu cadastro conosco ou entre
+                            em sua conta!<br>
+                            Clique no botão abaixo para adicionar a viagem e em seguida clique no icone
+                            "viajar".
+                            <p class="flow-text"> Desejamos uma ótima viagem.</p>
+                            <label>
+                                <input type="checkbox" class="filled-in">
+                                <span>Clique para adicionar sua viagem</span>
+                            </label>
+                            <a href="index-formulario.html"><i class="material-icons">place</i>Viajar</a></p>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------------------------------>
+            <div class="col s12 m6">
+                <div class="card class sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img--cards/paris.jpg" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <a><i class="material-icons"> star star star star star </i></a>
+                            <i class="material-icons right"> more_vert</i>
+                        </span>
+                    </div>
+                    <div class="card-action ">
+                        <a href="#"><i class="material-icons">visibility</i>39.6M views</a>
+                        <a href="#"><i class="material-icons">place</i>Paris,França</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title" class=" grey-text text-darken-4">
+                            Agradecemos o interesse !
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Para que sua viagem seja marcada precisamos que você realize o seu cadastro conosco ou entre
+                            em sua conta!<br>
+                            Clique no botão abaixo para adicionar a viagem e em seguida clique no icone
+                            "viajar".
+                            <p class="flow-text"> Desejamos uma ótima viagem.</p>
+                            <label>
+                                <input type="checkbox" class="filled-in">
+                                <span>Clique para adicionar sua viagem</span>
+                            </label>
+                            <a href="index-formulario.html"><i class="material-icons">place</i>Viajar</a></p>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------------------------------>
+            <div class="col s12 m6">
+                <div class="card class sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img--cards/gecia.jpg" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <a><i class="material-icons"> star star star star star </i></a>
+                            <i class="material-icons right"> more_vert</i>
+                        </span>
+                    </div>
+                    <div class="card-action ">
+                        <a href="#"><i class="material-icons">visibility</i>18.9M views</a>
+                        <a href="#"><i class="material-icons">place</i>Creta,Grécia</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title" class=" grey-text text-darken-4">
+                            Agradecemos o interesse !
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Para que sua viagem seja marcada precisamos que você realize o seu cadastro conosco ou entre
+                            em sua conta!<br>
+                            Clique no botão abaixo para adicionar a viagem e em seguida clique no icone
+                            "viajar".
+                            <p class="flow-text"> Desejamos uma ótima viagem.</p>
+                            <label>
+                                <input type="checkbox" class="filled-in">
+                                <span>Clique para adicionar sua viagem</span>
+                            </label>
+                            <a href="index-formulario.html"><i class="material-icons">place</i>Viajar</a></p>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------------------------------>
+            <div class="col s12 m6">
+                <div class="card class sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img--cards/indonesia.jpg" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <a><i class="material-icons"> star star star star star </i></a>
+                            <i class="material-icons right"> more_vert</i>
+                        </span>
+                    </div>
+                    <div class="card-action ">
+                        <a href="#"><i class="material-icons">visibility</i>21.4M views</a>
+                        <a href="#"><i class="material-icons">place</i>Bali,Indonesia</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title" class=" grey-text text-darken-4">
+                            Agradecemos o interesse !
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Para que sua viagem seja marcada precisamos que você realize o seu cadastro conosco ou entre
+                            em sua conta!<br>
+                            Clique no botão abaixo para adicionar a viagem e em seguida clique no icone
+                            "viajar".
+                            <p class="flow-text"> Desejamos uma ótima viagem.</p>
+                            <label>
+                                <input type="checkbox" class="filled-in">
+                                <span>Clique para adicionar sua viagem</span>
+                            </label>
+                            <a href="index-formulario.html"><i class="material-icons">place</i>Viajar</a></p>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------------------------------>
+            <div class="col s12 m6">
+                <div class="card class sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img--cards/roma.jpg" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <a><i class="material-icons"> star star star star star </i></a>
+                            <i class="material-icons right"> more_vert</i>
+                        </span>
+                    </div>
+                    <div class="card-action ">
+                        <a href="#"><i class="material-icons">visibility</i>43.9M views</a>
+                        <a href="#"><i class="material-icons">place</i>Roma,Itália</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title" class=" grey-text text-darken-4">
+                            Agradecemos o interesse !
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Para que sua viagem seja marcada precisamos que você realize o seu cadastro conosco ou entre
+                            em sua conta!<br>
+                            Clique no botão abaixo para adicionar a viagem e em seguida clique no icone
+                            "viajar".
+                            <p class="flow-text"> Desejamos uma ótima viagem.</p>
+                            <label>
+                                <input type="checkbox" class="filled-in">
+                                <span>Clique para adicionar sua viagem</span>
+                            </label>
+                            <a href="index-formulario.html"><i class="material-icons">place</i>Viajar</a></p>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------------------------------>
+            <div class="col s12 m6">
+                <div class="card class sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img--cards/novayork.jpg" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <a><i class="material-icons"> star star star star star </i></a>
+                            <i class="material-icons right"> more_vert</i>
+                        </span>
+                    </div>
+                    <div class="card-action ">
+                        <a href="#"><i class="material-icons">visibility</i>34.1M views</a>
+                        <a href="#"><i class="material-icons">place</i>Nova York,Estados Unidos</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title" class=" grey-text text-darken-4">
+                            Agradecemos o interesse !
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Para que sua viagem seja marcada precisamos que você realize o seu cadastro conosco ou entre
+                            em sua conta!<br>
+                            Clique no botão abaixo para adicionar a viagem e em seguida clique no icone
+                            "viajar".
+                            <p class="flow-text"> Desejamos uma ótima viagem.</p>
+                            <label>
+                                <input type="checkbox" class="filled-in">
+                                <span>Clique para adicionar sua viagem</span>
+                            </label>
+                            <a href="index-formulario.html"><i class="material-icons">place</i>Viajar</a></p>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------------------------------>
+            <div class="col s12 m6">
+                <div class="card class sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img--cards/disney.jpg" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <a><i class="material-icons"> star star star star star </i></a>
+                            <i class="material-icons right"> more_vert</i>
+                        </span>
+                    </div>
+                    <div class="card-action ">
+                        <a href="#"><i class="material-icons">visibility</i>200.6M views</a>
+                        <a href="#"><i class="material-icons">place</i>Orlando,Estados Unidos</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title" class=" grey-text text-darken-4">
+                            Agradecemos o interesse !
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Para que sua viagem seja marcada precisamos que você realize o seu cadastro conosco ou entre
+                            em sua conta!<br>
+                            Clique no botão abaixo para adicionar a viagem e em seguida clique no icone
+                            "viajar".
+                            <p class="flow-text"> Desejamos uma ótima viagem.</p>
+                            <label>
+                                <input type="checkbox" class="filled-in">
+                                <span>Clique para adicionar sua viagem</span>
+                            </label>
+                            <a href="index-formulario.html"><i class="material-icons">place</i>Viajar</a></p>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------------------------------>
+            <div class="col s12 m6">
+                <div class="card class sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img--cards/maldivas.jpg" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <a><i class="material-icons"> star star star star star </i></a>
+                            <i class="material-icons right"> more_vert</i>
+                        </span>
+                    </div>
+                    <div class="card-action ">
+                        <a href="#"><i class="material-icons">visibility</i>39.6M views</a>
+                        <a href="#"><i class="material-icons">place</i>Maldivas,Ásia</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title" class=" grey-text text-darken-4">
+                            Agradecemos o interesse !
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Para que sua viagem seja marcada precisamos que você realize o seu cadastro conosco ou entre
+                            em sua conta!<br>
+                            Clique no botão abaixo para adicionar a viagem e em seguida clique no icone
+                            "viajar".
+                            <p class="flow-text"> Desejamos uma ótima viagem.</p>
+                            <label>
+                                <input type="checkbox" class="filled-in">
+                                <span>Clique para adicionar sua viagem</span>
+                            </label>
+                            <a href="index-formulario.html"><i class="material-icons">place</i>Viajar</a></p>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------------------------------>
+            <div class="col s12 m6">
+                <div class="card class sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="img--cards/atenas.jpg" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <a><i class="material-icons"> star star star star star </i></a>
+                            <i class="material-icons right"> more_vert</i>
+                        </span>
+                    </div>
+                    <div class="card-action ">
+                        <a href="#"><i class="material-icons">visibility</i>27.9M views</a>
+                        <a href="#"><i class="material-icons">place</i>Atenas,Grécia</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title" class=" grey-text text-darken-4">
+                            Agradecemos o interesse !
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Para que sua viagem seja marcada precisamos que você realize o seu cadastro conosco ou entre
+                            em sua conta!<br>
+                            Clique no botão abaixo para adicionar a viagem e em seguida clique no icone
+                            "viajar".
+                            <p class="flow-text"> Desejamos uma ótima viagem.</p>
+                            <label>
+                                <input type="checkbox" class="filled-in">
+                                <span>Clique para adicionar sua viagem</span>
+                            </label>
+                            <a href="index-formulario.html"><i class="material-icons">place</i>Viajar</a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------------------------------------------------>
+
+        </div>
+    </div>
+
+    </div>
+
+    <footer class="page-footer blue darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">O que fazemos ?</h5>
+                    <p class="grey-text text-lighten-4">Nós aqui da Dream Travel iremos lhe proporcionar a experiência
+                        de
+                        viajar para lugares incriveis pelo mundo com o luxo que você merece,
+                        além de em aeroportos ter acesso a sala vip com tudo incluso,em hoteis
+                        tudo está incluso e com certeza será a melhor viagem da sua vida.
+                        conte sempre conosco,atenciosamente (Equipe Dream Travel).</p>
+
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Requisitados</h5>
+                    <ul>
+                        <li><a href="index2.html" class="white-text">Londres,Reino Unido</a></li>
+                        <li><a href="index2.html" class="white-text">Paris,França</a></li>
+                        <li><a href="index2.html" class="white-text">Creta,Grécia</a></li>
+                        <li><a href="index2.html" class="white-text">Bali,Indonésia</a></li>
+                        <li><a href="index2.html" class="white-text">Roma,Itália</a></li>
+                    </ul>
+                </div>
+
+                <div class="col l3 s12">
+                    <h5 class="white-text">Fale Conosco</h5>
+                    <ul>
+                        <li class="material-icons"><a href="#" class="white-text">email</a></li><br>
+                        <li class="material-icons"><a href="#" class="white-text">chat</a></li><br>
+                        <li class="material-icons"><a href="#" class="white-text">business</a></li><br>
+                        <li onclick="acao1()" class="material-icons"><a href="#" class="white-text">qr_code_2</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="footer-copyright blue darken-4">
+            <div class="container center">
+                Todos os direitos reservados <a href="#" class="brown-text text-lighten-3">GoettenauerSecurity</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/init.js"></script>
+</body>
+
+</html>

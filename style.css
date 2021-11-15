@@ -1,0 +1,75 @@
+p {
+    line-height: 2rem;
+}
+
+.aviao a img {
+    width: 120px;
+}
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+.sidenav-trigger {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-width: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, 9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.icon-block p {
+    text-align: justify;
+}
+
+.botao-formulario a {
+    float: left;
+}
+
+.cor-do-h6 h6 {
+    color: rgb(202, 202, 202)
+}
+
+
+
+.estilo1 {
+    background: #ffffff;
+    color: #FFF;
+}
+
+.estilo2 {
+    width: 1000px;
+    background-color: green;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+    padding: 30px;
+}
+
+
+
+
+
+.distancia-ajuda h6 {
+    margin-left: 15px;
+}
+
+.imagem img {
+    width: 300px;
+}
