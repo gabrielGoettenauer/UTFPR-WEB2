@@ -1,6 +1,7 @@
 # UTFPR-WEB2
 Site.
 https://www.figma.com/file/bJhy8Z5Jp0mphBiSeiVFS7/Untitled?node-id=0%3A1
+https://www.loom.com/share/a65f271677704fd89d3912ac58e68c5a
 
 # CheckList
 .Caixas de Diálogo
