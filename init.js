@@ -17,15 +17,19 @@
 })
 
 function premium() {
-    var resposta = confirm('Olá,infelizmente ainda estamos trabalhando nesse projeto. Vamos por você como um dos primeiros na lista para receber um desconto de 30% na experiência Premium')
-    var nome = prompt('Digite seu nome e sobrenome')
+    'use strict'
+    const resposta = confirm('Olá,infelizmente ainda estamos trabalhando nesse projeto. Vamos por você como um dos primeiros na lista para receber um desconto de 30% na experiência Premium')
+    const nome = prompt('Digite seu nome e sobrenome')
     document.write('<h1> Certo,' + nome + ' seu nome está na nossa lista agora,nós da Dream Travel agradecemos,por gentileza atualize a página para retornar.');
 
-};
+}
+strictFunction();
 
 function entrar() {
-    var entrar = alert('É necessário a criação de sua conta antes,por gentileza,clique no botão Inscreva-se')
+    'use strict'
+    const entrar = alert('É necessário a criação de sua conta antes,por gentileza,clique no botão Inscreva-se')
 }
+strictFunction();
 
 function acao1() {
     alert('Atualmente essa função está indisponível')
@@ -62,8 +66,6 @@ $(document).ready(function () {
                 'Outubro',
                 'Novembro',
                 'Dezembro'
-
-
             ],
             monthsShort: [
                 'Jan',
@@ -144,7 +146,9 @@ function mudarCor() {
 
 
 function gerar() {
-    let nomes = ["KABOL, AFGHANISTAN", "MALDIVAS,ÁSIA", "LONDRES,INGLATERRA"];
+    let nomes = [
+        "KABOL, AFGHANISTAN", "MALDIVAS,ÁSIA", "LONDRES,INGLATERRA"
+    ];
     let lista = document.getElementById('lista');
     for (var i = 0; i < nomes.length; i++) {
         let item = document.createElement('li');
@@ -177,6 +181,7 @@ console.log(lista_destinos)
 var objetos = Array('', '', '')
 
 function adicionarObjetos() {
+    'use strict'
     //recupera o valor inserido no campo id objeto
     var objeto = document.getElementById('objeto').value
 
@@ -198,6 +203,7 @@ function adicionarObjetos() {
 
     }
 }
+strictFunction();
 
 function ordenarObjetos() {
     objetos.sort()
