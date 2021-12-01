@@ -64,76 +64,102 @@
         <!----------------------------------------->
         <div id="mensagem" class="estilo1">Sua viagem foi confirmada ! Enviaremos o comprovante e o intinerário pelo seu
             email</div><br>
-        <button class="green lighten-3" type="button" onclick="modificaClasse()">Confirmar
+        <button class="green lighten" type="button" onclick="modificaClasse()">Confirmar
             Viagem</button><br><br>
 
         <p class="estilo3">Documentação confirmada</p>
-        <button class="green lighten-3" onclick="mudarCor()">Confirmar documentação</button><br><br>
-
+        <button class="green lighten" onclick="mudarCor()">Confirmar documentação</button><br><br>
 
         <ul id="lista"></ul>
-        <input class="green lighten-3" type="button" onclick="gerar()" value="Sugestões Dream Travel">
-
+        <input class="green lighten" type="button" onclick="gerar()" value="Sugestões Dream Travel"><br><br>
         <input type="text" id="objeto" />
         <button style="margin-bottom: 10px;" onclick="adicionarObjetos()">Adicionar Sugestão</button>
         <button onclick="ordenarObjetos()">Ordenar</button>
 
     </div>
     </div>
-</body>
-
-<footer class=" page-footer blue darken-3">
-    <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">O que fazemos ?</h5>
-                <p class="grey-text text-lighten-4">Nós aqui da Dream Travel iremos lhe proporcionar a
-                    experiência
-                    de
-                    viajar para lugares incriveis pelo mundo com o luxo que você merece,
-                    além de em aeroportos ter acesso a sala vip com tudo incluso,em hoteis
-                    tudo está incluso e com certeza será a melhor viagem da sua vida.
-                    conte sempre conosco,atenciosamente (Equipe Dream Travel).</p>
+    <div class="container" style="margin-top: 50px;">
+        <div class="collection with-header">
+            <div class="collection-header">
+                <h4>Destinos mais adicionados</h4>
+                <h4 class="material-icons circle grey">travel_explore</h4>
+                <input type="text" name="q" id="q">
+                <form name="frmBusca" action="http://www.google.com/search" method="get"
+                    onsubmit="return validaCampo()">
+                    <input type="submit" class="blue lighten-2" name="btnBuscar" value="Buscar Destinos">
+                </form>
 
             </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Requisitados</h5>
-                <ul>
-                    <li><a href="index2.html" class="white-text">Londres,Reino Unido</a></li>
-                    <li><a href="index2.html" class="white-text">Paris,França</a></li>
-                    <li><a href="index2.html" class="white-text">Creta,Grécia</a></li>
-                    <li><a href="index2.html" class="white-text">Bali,Indonésia</a></li>
-                    <li><a href="index2.html" class="white-text">Roma,Itália</a></li>
-                </ul>
-            </div>
-
-            <div class="col l3 s12">
-                <h5 class="white-text">Fale Conosco</h5>
-                <ul>
-                    <li class="material-icons"><a href="#" class="white-text">email</a></li><br>
-                    <li class="material-icons"><a href="#" class="white-text">chat</a></li><br>
-                    <li class="material-icons"><a href="#" class="white-text">business</a></li><br>
-                    <li onclick="acao1()" class="material-icons"><a href="#" class="white-text">qr_code_2</a>
-                    </li>
-                </ul>
-            </div>
-
-
-        </div>
-    </div>
-    <div class="footer-copyright blue darken-4">
-        <div class="container center">
-            Todos os direitos reservados <a href="#" class="brown-text text-lighten-3">GoettenauerSecurity</a>
+            <a href="#" class="collection-item blue-text text-lighten-2">Arouca – Portugal</a>
+            <a href="#" class="collection-item active blue lighten-2">Dubai – Emirados Árabes</a>
+            <a href="#" class="collection-item blue-text text-lighten-2">Marraquexe – Marrocos</a>
+            <a href="#" class="collection-item blue-text text-lighten-2">Veneza – Itália</a>
+            <a href="#" class="collection-item blue-text text-lighten-2">Cairo – Egito</a>
         </div>
 
+        <ul class="collection">
+            <li class="collection-item avatar">
+                <i class="material-icons circle blue lighten-2">flight_takeoff </i>
+                <span class="title">Dream Travel</span>
+                <p>Nossa companhia aérea é a mais luxuosa do mundo e melhor avaliada<br>
+                    <a href="#" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+        </ul>
     </div>
 
-</footer>
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="js/init.js"></script>
+    <footer class=" page-footer blue darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">O que fazemos ?</h5>
+                    <p class="grey-text text-lighten-4">Nós aqui da Dream Travel iremos lhe proporcionar a
+                        experiência
+                        de
+                        viajar para lugares incriveis pelo mundo com o luxo que você merece,
+                        além de em aeroportos ter acesso a sala vip com tudo incluso,em hoteis
+                        tudo está incluso e com certeza será a melhor viagem da sua vida.
+                        conte sempre conosco,atenciosamente (Equipe Dream Travel).</p>
+
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Requisitados</h5>
+                    <ul>
+                        <li><a href="index2.html" class="white-text">Londres,Reino Unido</a></li>
+                        <li><a href="index2.html" class="white-text">Paris,França</a></li>
+                        <li><a href="index2.html" class="white-text">Creta,Grécia</a></li>
+                        <li><a href="index2.html" class="white-text">Bali,Indonésia</a></li>
+                        <li><a href="index2.html" class="white-text">Roma,Itália</a></li>
+                    </ul>
+                </div>
+
+                <div class="col l3 s12">
+                    <h5 class="white-text">Fale Conosco</h5>
+                    <ul>
+                        <li class="material-icons"><a href="#" class="white-text">email</a></li><br>
+                        <li class="material-icons"><a href="#" class="white-text">chat</a></li><br>
+                        <li class="material-icons"><a href="#" class="white-text">business</a></li><br>
+                        <li onclick="acao1()" class="material-icons"><a href="#" class="white-text">qr_code_2</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="footer-copyright blue darken-4">
+            <div class="container center">
+                Todos os direitos reservados <a href="#" class="brown-text text-lighten-3">GoettenauerSecurity</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/init.js"></script>
 
 
 </body>
