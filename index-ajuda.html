@@ -28,7 +28,7 @@
                 <li><a href="#">Ajuda</a></li>
                 <li onclick="premium()"><a href="#">Premium</a></li>
                 <li><a href="index2.html">Viajar</a></li>
-                <li><a href="#">Inscreva-se</a></li>
+                <li><a href="index-formulario.html">Inscreva-se</a></li>
                 <li onclick="entrar()"><a href="#">Entrar</a></li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger">
@@ -49,32 +49,34 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col s12">
+    <form onsubmit="return valida() ">
+        <div class="row">
+            <div class="col s12">
+                <p>
+                    Email: <input type="email" required> <br>
 
-            <div class="input-field inline">
-                <input type="email" id="input" class="validate">
-
-                <label for="email2">Email</label>
+                </p>
 
             </div>
 
         </div>
 
-    </div>
-
-    <div class="row">
-        <div class="input-field col s12">
-            <textarea id="textarea" class="materialize-textarea"></textarea>
-            <label for="textarea"> Digite sua dúvida</label>
-            <div class="botao-formulario">
-                <a class="btn indigo accent-3 waves-effect" href="index2.html">Back</a>
-            </div><br>
         </div>
 
-    </div>
 
+        <div class="row">
+            <div class="input-field col s12">
+                <textarea id="textarea" class="materialize-textarea"></textarea>
+                <label for="textarea"> Digite sua dúvida</label>
+                <div class="botao-formulario">
+                    <a class="btn indigo accent-3 waves-effect" href="index2.html">Back</a>
+                    <button class="btn indigo accent-3 waves-effect right" value="submit">Enviar</button>
+                </div><br>
+            </div>
 
+        </div>
+
+    </form>
     <footer class="page-footer blue darken-3">
         <div class="container">
             <div class="row">
@@ -118,6 +120,7 @@
             </div>
 
         </div>
+        <!--------------------------------------------------------------------------------------->
 
     </footer>
 
