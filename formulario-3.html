@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <nav class="white" role="navigation">
+        <div class="container nav-wrapper">
+            <div class="aviao"><a href="index.html" class="brand-logo"><img src="img/aviao.png" alt=""></a></div>
+            <ul class="hide-on-med-and-down right">
+                <li><a href="index-ajuda.html">Ajuda</a></li>
+                <li onclick="premium()"><a href="#">Premium</a></li>
+                <li><a href="#">Viajar</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="index-formulario.html">Inscreva-se</a></li>
+                <li onclick="entrar()"><a href="#">Entrar</a></li>
+
+            </ul>
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="index-ajuda.html">Ajuda</a></li>
+                <li onclick="premium()"><a href="#">Premium</a></li>
+                <li><a href="#">Viajar</a></li>
+                <li><a href="index-formulario.html">Inscreva-se</a></li>
+                <li onclick="entrar()"><a href="#">Entrar</a></li>
+
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+        </div>
+    </nav>
+    <label for="dataInicio">Inicio</label>
+    <input type="date" name="dataInicio" id="dataInicio">
+    <p id="demo"></p>
+
+    <script src="form3.js"></script>
+
+    <div class="container" style="margin-top:40px;">
+        <div class="row">
+            <form method="get" action=".">
+                <label>Cep:
+                    <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" /></label><br />
+                <label>Rua:
+                    <input name="rua" type="text" id="rua" size="60" /></label><br />
+                <label>Bairro:
+                    <input name="bairro" type="text" id="bairro" size="40" /></label><br />
+                <label>Cidade:
+                    <input name="cidade" type="text" id="cidade" size="40" /></label><br />
+                <label>Estado:
+                    <input name="uf" type="text" id="uf" size="2" /></label><br />
+            </form>
+            <div class="botao-formulario">
+                <a class="btn indigo accent-3 waves-effect right" href="index-dia.html">Next</a>
+            </div>
+
+            <div class="botao-formulario">
+                <a class="btn indigo accent-3 waves-effect" href="formulario-2.html">Back</a>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer blue darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">O que fazemos ?</h5>
+                    <p class="grey-text text-lighten-4">Nós aqui da Dream Travel iremos lhe
+                        proporcionar a experiência
+                        de
+                        viajar para lugares incriveis pelo mundo com o luxo que você merece,
+                        além de em aeroportos ter acesso a sala vip com tudo incluso,em hoteis
+                        tudo está incluso e com certeza será a melhor viagem da sua vida.
+                        conte sempre conosco,atenciosamente (Equipe Dream Travel).</p>
+
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Requisitados</h5>
+                    <ul>
+                        <li><a href="index2.html" class="white-text">Londres,Reino Unido</a></li>
+                        <li><a href="index2.html" class="white-text">Paris,França</a></li>
+                        <li><a href="index2.html" class="white-text">Creta,Grécia</a></li>
+                        <li><a href="index2.html" class="white-text">Bali,Indonésia</a></li>
+                        <li><a href="index2.html" class="white-text">Roma,Itália</a></li>
+                    </ul>
+                </div>
+
+                <div class="col l3 s12">
+                    <h5 class="white-text">Fale Conosco</h5>
+                    <ul>
+                        <li class="material-icons"><a href="#" class="white-text">email</a></li><br>
+                        <li class="material-icons"><a href="contato-email.html" class="white-text">chat</a></li><br>
+                        <li class="material-icons"><a href="#" class="white-text">business</a></li>
+                        <br>
+                        <li onclick="acao1()" class="material-icons"><a href="#" class="white-text">qr_code_2</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="footer-copyright blue darken-4">
+            <div class="container center">
+                Todos os direitos reservados <a href="#" class="brown-text text-lighten-3">GoettenauerSecurity</a>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+</body>
+
+</html>
