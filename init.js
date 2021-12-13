@@ -209,3 +209,12 @@ function ordenarObjetos() {
     objetos.sort()
     console.log(objetos)
 }
+
+document.getElementById('primeiro_nome').value = localStorage.primeiro_nome;
+
+var salvarData = function () {
+    var primeiro_nome = document.getElementById('primeiro_nome').value;
+    console.log(primeiro_nome);
+    localStorage.setItem('primeiro_nome', primeiro_nome)
+}
+document.onchange = salvarData;
