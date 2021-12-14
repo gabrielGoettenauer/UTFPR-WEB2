@@ -79,16 +79,16 @@ https://www.loom.com/share/0a444aff4cbb47848dfac088953e68a8
 - [ ] Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
 
 .jQuery
--[x]Uso de seletores CSS - id, classe e tag
--[ ]Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
--[ ]Uso de seletores hierárquicos dinâmicos - parent/children/next
--[x]Efeitos fade ou slide
--[x]Especificar o tratador de algum evento via jQuery
--[x]Manipulação do CSS via função css() e addClass()/removeClass()
--[x]Manipulação do conteúdo de um input e div usando jQuery
--[x]Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)
+- [x] Uso de seletores CSS - id, classe e tag
+- [ ] Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
+- [ ] Uso de seletores hierárquicos dinâmicos - parent/children/next
+- [x] Efeitos fade ou slide
+- [x] Especificar o tratador de algum evento via jQuery
+- [x] Manipulação do CSS via função css() e addClass()/removeClass()
+- [x] Manipulação do conteúdo de um input e div usando jQuery
+- [x] Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)
 .Web Storage
--[x]LocalStorage ou SessionStorage
--[x]Leitura e escrita de dados simples (tipos primitivos)
--[x]Leitura e escrita de JSON
--[x]Implementação funcional (basta fazer funcionar uma requisição) em AJAX para uma API de terceiros (ex.: buscaCEP, IBGE) ou para a sua própria API criada com ExpressJS na plataforma Node.
+- [x] LocalStorage ou SessionStorage
+- [x] Leitura e escrita de dados simples (tipos primitivos)
+- [x] Leitura e escrita de JSON
+- [x] Implementação funcional (basta fazer funcionar uma requisição) em AJAX para uma API de terceiros (ex.: buscaCEP, IBGE) ou para a sua própria API criada com ExpressJS na plataforma Node.
