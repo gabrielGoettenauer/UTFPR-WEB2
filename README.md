@@ -90,5 +90,5 @@ https://www.loom.com/share/0a444aff4cbb47848dfac088953e68a8
 .Web Storage
 - [x] LocalStorage ou SessionStorage
 - [x] Leitura e escrita de dados simples (tipos primitivos)
-- [x] Leitura e escrita de JSON
+- [ ] Leitura e escrita de JSON
 - [x] Implementação funcional (basta fazer funcionar uma requisição) em AJAX para uma API de terceiros (ex.: buscaCEP, IBGE) ou para a sua própria API criada com ExpressJS na plataforma Node.
