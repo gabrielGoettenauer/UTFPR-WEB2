@@ -8,6 +8,9 @@ https://www.loom.com/share/a65f271677704fd89d3912ac58e68c5a
 Link Loom parte 2
 https://www.loom.com/share/0a444aff4cbb47848dfac088953e68a8
 
+Link Loom Recuperação
+https://www.loom.com/share/6ec2c0f83fd747f6979be1c29b04808c
+
 # CheckList
 .Caixas de Diálogo
 - [x] prompt 
@@ -19,12 +22,12 @@ https://www.loom.com/share/0a444aff4cbb47848dfac088953e68a8
 - [x] setTimeout
 
 . Funções
-- [ ] Função anônima com argumento
-- [ ] Função anônima sem argumento
+- [x] Função anônima com argumento
+- [x] Função anônima sem argumento
 - [ ] Função anônima com retorno
-- [ ] Função auto-executável
+- [x] Função auto-executável
 - [x] Função com nome
-- [ ] Função aninhada/local - declarar uma função dentro de outra
+- [x] Função aninhada/local - declarar uma função dentro de outra
 - [x] Passagem de uma função como parâmetro
 - [ ] Função Flecha - Arrow Function
 
@@ -41,10 +44,10 @@ https://www.loom.com/share/0a444aff4cbb47848dfac088953e68a8
 - [x] Via getElementsByName()
 - [x] Via getElementsByTagName()
 - [x] Via seletores CSS usados na função querySelector() ou querySelectorAll()
-- [ ] Tratadores de Evento
+- [x] Tratadores de Evento
 - [ ] Especificar o tratador de evento inline
 - [ ] Especificar o tratador de evento no modo tradicional - com prefixo on
-- [ ] Especificar o tratador de evento com a função addEventListener
+- [x] Especificar o tratador de evento com a função addEventListener
 - [ ] Usar o operador this em funções tratadoras de eventos.
 
 . Objetos Nativos
